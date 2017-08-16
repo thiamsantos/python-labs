@@ -10,4 +10,5 @@ def main():
     divisors = get_divisors(number)
     print("The divisors of the {number} are {divisors}".format(number=number, divisors=divisors))
 
-main()
+if __name__ == "__main__":
+    main()

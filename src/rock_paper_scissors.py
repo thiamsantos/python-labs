@@ -9,9 +9,9 @@ Paper beats rock
 """
 
 def rock_paper_scissors(player1_input, player2_input):
-    if ((player1_input == 'rock' and player2_input == 'scissors') or
-            (player1_input == 'scissors' and player2_input == 'paper') or
-            (player1_input == 'paper' and player2_input == 'rock')):
+    if ((player1_input == "rock" and player2_input == "scissors") or
+            (player1_input == "scissors" and player2_input == "paper") or
+            (player1_input == "paper" and player2_input == "rock")):
         return 1
 
     return 2
@@ -26,8 +26,8 @@ def main():
     player1 = input("Player 1, type your name: ")
     player2 = input("Player 2, type your name: ")
 
-    quit_game = 'y'
-    while quit_game == 'y':
+    quit_game = "y"
+    while quit_game == "y":
         player1_input = input(create_player_time_message(player1))
         player2_input = input(create_player_time_message(player2))
 

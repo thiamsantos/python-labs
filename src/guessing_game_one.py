@@ -10,12 +10,12 @@ Keep track of how many guesses the user has taken, and when the game ends, print
 from random import randint
 
 def main():
-    wanna_quit = 'n'
+    wanna_quit = "n"
     guesses = 0
     number = randint(1, 9)
     print(number)
 
-    while wanna_quit != 'y':
+    while wanna_quit != "y":
         guess = int(input("Guess a number: "))
         guesses += 1
         if guess > number:
