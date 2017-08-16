@@ -7,7 +7,7 @@ from divisors import get_divisors
 def is_prime(number: int) -> bool:
     divisors = get_divisors(number)
 
-    if len(divisors) == 2 or number == 1:
+    if len(divisors) == 2:
         return True
 
     return False
