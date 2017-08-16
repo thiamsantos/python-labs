@@ -26,8 +26,8 @@ def main():
     player1 = input("Player 1, type your name: ")
     player2 = input("Player 2, type your name: ")
 
-    quit = 'y'
-    while quit == 'y':
+    quit_game = 'y'
+    while quit_game == 'y':
         player1_input = input(create_player_time_message(player1))
         player2_input = input(create_player_time_message(player2))
 
@@ -38,7 +38,7 @@ def main():
         else:
             print(create_result_message(player2, player2_input, player1_input))
 
-        quit = input("Do you wanna play again? [y/n] ")
+        quit_game = input("Do you wanna play again? [y/n] ")
 
 if __name__ == "__main__":
     main()
