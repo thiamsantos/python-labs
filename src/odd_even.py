@@ -15,4 +15,5 @@ def main():
     else:
         print("{number} is even!".format(number=number))
 
-main()
+if __name__ == "__main__":
+    main()
